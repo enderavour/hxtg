@@ -1,0 +1,5 @@
+--class-path src
+--main Main
+--neko tghx.n
+--cmd nekotools boot tghx.n
+--cmd rm tghx.n
