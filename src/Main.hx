@@ -4,8 +4,9 @@ import haxe.Int64;
 class Main
 {
     static function main() 
-    {   
-        var bot = new Bot("8510149429:AAFfnu69lMSBHAkz5a7atV1pLan9coLrsnw");
+    {
+    	// Insert token here   
+        var bot = new Bot("");
         bot.registerCallback(Text, text_handler);
         // Bot loop
         bot.run();
